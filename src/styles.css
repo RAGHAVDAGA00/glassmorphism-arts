@@ -62,6 +62,7 @@
 .glass-button { border:1px solid var(--border); background:color-mix(in oklab,var(--card) 85%,transparent); transition: border-color .25s,transform .25s; }
 .glass-button:hover { border-color:var(--cyan); transform:translateY(-2px); }
 .hero { position:relative; min-height:650px; display:flex; align-items:center; isolation:isolate; }
+.orbit-shell { position:absolute; inset:0; border-radius:50%; overflow:hidden; }
 .hero::before { content:''; position:absolute; inset:0; z-index:-1; background-image:linear-gradient(var(--border) 1px,transparent 1px),linear-gradient(90deg,var(--border) 1px,transparent 1px); background-size:72px 72px; opacity:.1; mask-image:linear-gradient(to bottom,transparent, var(--foreground) 45%,transparent); }
 .hero-copy { max-width:610px; padding:70px 0 95px; position:relative; z-index:2; }
 .eyebrow { font-family:var(--font-display); font-size:11px; text-transform:uppercase; letter-spacing:2px; color:var(--muted-foreground); }
