@@ -10,5 +10,5 @@
 <!-- LOVABLE:END -->
 
 - Keep the portfolio as a single index route with anchor navigation because the requested experience is one smooth-scrolling page.
-- Keep sample contact submission client-side through an email draft until a real delivery service is requested; never imply a message was sent.
+- Render contact details as non-interactive availability states when no verified destinations exist; only restore a client-side email draft once a public email is supplied, and never imply delivery.
 - Define portfolio visual roles and animations in src/styles.css and use the shared Button for interactive controls.
