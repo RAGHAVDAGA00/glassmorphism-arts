@@ -8,3 +8,7 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep the portfolio as a single index route with anchor navigation because the requested experience is one smooth-scrolling page.
+- Keep sample contact submission client-side through an email draft until a real delivery service is requested; never imply a message was sent.
+- Define portfolio visual roles and animations in src/styles.css and use the shared Button for interactive controls.
