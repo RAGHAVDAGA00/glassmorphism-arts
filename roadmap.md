@@ -2,4 +2,4 @@
 - [x] Build the animated one-page portfolio and sample content.
 - [x] Verify navigation, skill tabs, certificates, and contact interactions.
 - [x] Rename the portfolio to Raghav Daga and drop the portrait for an initials monogram.
-- [ ] Replace fictional information with the supplied public profile and verify the updated page.
+- [x] Replace fictional information with the supplied public profile and verify the updated page.
