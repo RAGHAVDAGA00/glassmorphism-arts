@@ -87,6 +87,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
     ],
+    scripts: [
+      { src: "https://cdn.botpress.cloud/webchat/v3.7/inject.js" },
+      {
+        src: "https://files.bpcontent.cloud/2026/10/13/02/20261013024503-F5MVOTQO.js",
+        defer: true,
+      },
+    ],
     links: [
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" },
       {
